@@ -1,4 +1,8 @@
 <?php
+
+// Configuration common to all environments
+include_once __DIR__ . '/wp-config.common.php';
+
 /**
  * The base configuration for WordPress
  *
@@ -84,6 +88,7 @@ define('WP_AUTO_UPDATE_CORE', true);
  */
 define( 'WP_DEBUG', false );
 
+define('VP_ENVIRONMENT', 'dev');
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
