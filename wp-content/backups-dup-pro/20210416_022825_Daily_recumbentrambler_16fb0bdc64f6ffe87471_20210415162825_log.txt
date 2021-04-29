@@ -1,0 +1,113 @@
+********************************************************************************
+DUPLICATOR PRO PACKAGE-LOG: 2021-04-15 16:28:42
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	4.0.2
+WORDPRESS:	5.7
+PHP INFO:	7.3.27 | SAPI: cgi-fcgi
+SERVER:		Apache 
+ARCHITECTURE:	64-bit 
+CLIENT KICKOFF: off 
+PHP TIME LIMIT: [7200] not allowed 
+PHP MAX MEMORY: 4294967296 (256M default) 
+RUN TYPE:	Schedule
+MEMORY STACK:	58.5MB
+ARCHIVE ENGINE: DupArchive
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP + CHUNKING (query size limit - 1046528 )
+
+TABLES: total: 24 | filtered:0 | create:24
+REWIND DATABASE ITERATOR
+INSERT ROWS TABLE[INDEX:0] I6z_commentmeta NUM ROWS: 0
+REWIND DATABASE ITERATOR
+INSERT ROWS TABLE[INDEX:0] I6z_commentmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:1] I6z_comments NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:2] I6z_duplicator_pro_entities NUM ROWS: 12
+INSERT ROWS TABLE[INDEX:3] I6z_duplicator_pro_packages NUM ROWS: 24
+INSERT ROWS TABLE[INDEX:4] I6z_links NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:5] I6z_local_sync_current_process NUM ROWS: 7772
+INSERT ROWS TABLE[INDEX:6] I6z_local_sync_delete_list NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:7] I6z_local_sync_inc_exc_contents NUM ROWS: 81
+INSERT ROWS TABLE[INDEX:8] I6z_local_sync_local_site_files NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:9] I6z_local_sync_local_site_new_attachments NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:10] I6z_local_sync_options NUM ROWS: 66
+INSERT ROWS TABLE[INDEX:11] I6z_local_sync_processed_iterator NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:12] I6z_options NUM ROWS: 443
+INSERT ROWS TABLE[INDEX:13] I6z_postmeta NUM ROWS: 8
+INSERT ROWS TABLE[INDEX:14] I6z_posts NUM ROWS: 6
+INSERT ROWS TABLE[INDEX:15] I6z_spectrom_sync NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:16] I6z_spectrom_sync_log NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:17] I6z_spectrom_sync_sources NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:18] I6z_term_relationships NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:19] I6z_term_taxonomy NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:20] I6z_termmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:21] I6z_terms NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:22] I6z_usermeta NUM ROWS: 23
+INSERT ROWS TABLE[INDEX:23] I6z_users NUM ROWS: 1
+SQL FILE SIZE CHECK OK, SIZE: 2278555
+SQL CREATED: 20210416_022825_Daily_recumbentrambler_16fb0bdc64f6ffe87471_20210415162825_database.sql
+SQL FILE SIZE: 2.17MB
+SQL FILE TIME: 2021-04-15 16:29:11
+SQL RUNTIME: 29.122 sec.
+MEMORY STACK: 58.5MB
+
+********************************************************************************
+ARCHIVE Type=DUP Mode=DupArchive
+********************************************************************************
+ARCHIVE DIR:  /home4/theagein/public_html/recumbent
+ARCHIVE FILE: 20210416_022825_Daily_recumbentrambler_16fb0bdc64f6ffe87471_20210415162825_archive.daf
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	105.78MB
+STATS:	Dirs 1,329 | Files 6,928 | Total 8,257
+COMPRESSED SIZE: 41.18MB
+ARCHIVE RUNTIME: 209.157 sec.
+MEMORY STACK: 60.5MB
+CREATE WARNINGS: No warnings.
+VALIDATION WARNINGS: No warnings.
+
+********************************************************************************
+STORAGE:
+********************************************************************************
+DROPBOX: Dropbox Daily, https://dropbox.com/home
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 2.17MB
+INSTALLER FILE: 91.7KB
+ARCHIVE FILE: 41.18MB 
+EXPECTED FILE/DIRECTORY COUNT: 8,257
+ACTUAL FILE/DIRECTORY COUNT: 8,257
+
+********************************************************************************
+RECORD ID:[24]
+TOTAL PROCESS RUNTIME: 211.161 sec.
+PEAK PHP MEMORY USED: 58.5MB
+DONE PROCESSING => 20210416_022825_Daily_recumbentrambler 2021-04-15 16:32:13
+
+-----------------------------------------
+STORAGE PROCESSING THREAD INITIATED
+** DROPBOX [Name: Dropbox Daily] [ID: 6] **
+SUCCESS: installer upload to DropBox recumbentrambler.com/20210416_022825_Daily_recumbentrambler_16fb0bdc64f6ffe87471_20210415162825_installer.php
+Archive upload offset: 16384000 [File size: 43176395] [Upload progress: 38%]
+-----------------------------------------
+STORAGE PROCESSING THREAD INITIATED
+** DROPBOX [Name: Dropbox Daily] [ID: 6] **
+Archive upload offset: 32768000 [File size: 43176395] [Upload progress: 76%]
+-----------------------------------------
+STORAGE PROCESSING THREAD INITIATED
+** DROPBOX [Name: Dropbox Daily] [ID: 6] **
+Archive upload offset: 43176395 [File size: 43176395] [Upload progress: 100%]
+$dropbox_upload_info->file_meta->content_hash property doesn't exists in response, so requesting file meta again to the dropbox API server.
+SUCCESS: archive upload to Dropbox.
+-----------------------------------------
+STORAGE PROCESSING THREAD INITIATED
+STORAGE PROCESSING COMPLETED

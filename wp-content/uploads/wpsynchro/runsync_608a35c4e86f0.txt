@@ -1,0 +1,602 @@
+[2021-04-29 04:27:49.404065] [INFO] Running sync controller loop - With allotted time: 26.643244981766 seconds
+[2021-04-29 04:27:49.404939] [INFO] Initating with remote and local host with remaining time:26.642365932465
+[2021-04-29 04:27:49.407100] [DEBUG] Calling initate remote service with url: http://localhost/recumbentrambler
+[2021-04-29 04:27:49.697490] [DEBUG] Got initiate token: aeea09f62183d94725ff3194407e70d5ea8efac32e68adcdca0f07d6002a9160
+[2021-04-29 04:27:49.697655] [DEBUG] Calling initate remote service with url: https://recumbentrambler.com
+[2021-04-29 04:27:55.687915] [DEBUG] Got initiate token: a3ebbd6c12bcaa823f2c490e79a76b9cd3c6b0e50da25f177131921073b7dbd2
+[2021-04-29 04:27:55.688484] [INFO] Initation completed on: 6.2835540771484 seconds
+[2021-04-29 04:27:55.696324] [INFO] Ending sync controller loop - with remaining time: 20.350985050201
+[2021-04-29 04:27:56.987038] [INFO] Running sync controller loop - With allotted time: 25.718327999115 seconds
+[2021-04-29 04:27:56.988826] [INFO] Getting masterdata from source and target with remaining time:25.71652507782
+[2021-04-29 04:27:56.989215] [DEBUG] Calling masterdata service on: https://recumbentrambler.com with intent to user as 'from'
+[2021-04-29 04:28:03.307772] [DEBUG] Calling masterdata service on: http://localhost/recumbentrambler with intent to user as 'to'
+[2021-04-29 04:28:03.638346] [INFO] Completed masterdata on: 6.6495261192322 seconds
+[2021-04-29 04:28:03.642871] [INFO] Ending sync controller loop - with remaining time: 19.062479972839
+[2021-04-29 04:28:03.907731] [INFO] Running sync controller loop - With allotted time: 26.742211818695 seconds
+[2021-04-29 04:28:03.914482] [INFO] Ending sync controller loop - with remaining time: 26.735455989838
+[2021-04-29 04:28:04.188603] [INFO] Running sync controller loop - With allotted time: 26.733122110367 seconds
+[2021-04-29 04:28:04.190923] [INFO] Starting database synchronization loop with remaining time: 26.730794906616
+[2021-04-29 04:28:04.191068] [DEBUG] Search/replaces:
+
+Array
+(
+    [0] => stdClass Object
+        (
+            [to] => http://localhost/recumbentrambler
+            [from] => https://recumbentrambler.com
+        )
+
+    [1] => stdClass Object
+        (
+            [to] => http:\/\/localhost\/recumbentrambler
+            [from] => https:\/\/recumbentrambler.com
+        )
+
+    [2] => stdClass Object
+        (
+            [to] => http%3A%2F%2Flocalhost%2Frecumbentrambler
+            [from] => https%3A%2F%2Frecumbentrambler.com
+        )
+
+    [3] => stdClass Object
+        (
+            [to] => /Users/paulmarrington/Sites/recumbentrambler
+            [from] => /home4/theagein/public_html/recumbent
+        )
+
+)
+
+[2021-04-29 04:28:04.322686] [INFO] New table is started: I6z_links and setting new default rows per sync: 500
+[2021-04-29 04:28:04.322935] [DEBUG] Getting data from remote DB with data: {"table":"I6z_links","last_primary_key":0,"primary_key_column":"link_id","binary_columns":[],"completed_rows":0,"max_rows":500,"type":"pull"}
+[2021-04-29 04:28:10.672261] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 238
+[2021-04-29 04:28:10.672458] [INFO] Marking table: I6z_links as completed
+[2021-04-29 04:28:10.678531] [DEBUG] Inserted 0 rows into target database
+[2021-04-29 04:28:10.678734] [DEBUG] Lastrun in : 6.3558080196381 seconds - rows throttle: 450 and remaining time: 20.242981910706
+[2021-04-29 04:28:10.678912] [INFO] Database progress update: Data: 0,0MB / 3,8MB - Rows: 0 / 793
+[2021-04-29 04:28:10.686061] [INFO] New table is started: I6z_options and setting new default rows per sync: 152
+[2021-04-29 04:28:10.686258] [DEBUG] Getting data from remote DB with data: {"table":"I6z_options","last_primary_key":0,"primary_key_column":"option_id","binary_columns":[],"completed_rows":0,"max_rows":152,"type":"pull"}
+[2021-04-29 04:28:17.019841] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 7710
+[2021-04-29 04:28:17.032852] [DEBUG] Inserted 152 rows into target database
+[2021-04-29 04:28:17.033152] [DEBUG] Lastrun in : 6.346892118454 seconds - rows throttle: 137 and remaining time: 13.888565063477
+[2021-04-29 04:28:17.033411] [INFO] Database progress update: Data: 0,7MB / 3,8MB - Rows: 152 / 793
+[2021-04-29 04:28:17.040162] [DEBUG] Getting data from remote DB with data: {"table":"I6z_options","last_primary_key":"179","primary_key_column":"option_id","binary_columns":[],"completed_rows":152,"max_rows":137,"type":"pull"}
+[2021-04-29 04:28:23.459918] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 16766
+[2021-04-29 04:28:23.485632] [DEBUG] Inserted 137 rows into target database
+[2021-04-29 04:28:23.485812] [DEBUG] Lastrun in : 6.4456639289856 seconds - rows throttle: 124 and remaining time: 7.4359021186829
+[2021-04-29 04:28:23.485962] [INFO] Database progress update: Data: 1,4MB / 3,8MB - Rows: 289 / 793
+[2021-04-29 04:28:23.490655] [INFO] Ending database synchronization loop with remaining time: 7.4310629367828 seconds
+[2021-04-29 04:28:23.495438] [INFO] Ending sync controller loop - with remaining time: 7.426283121109
+[2021-04-29 04:28:23.777443] [INFO] Running sync controller loop - With allotted time: 26.725087165833 seconds
+[2021-04-29 04:28:23.779279] [INFO] Starting database synchronization loop with remaining time: 26.723242998123
+[2021-04-29 04:28:23.779438] [DEBUG] Search/replaces:
+
+Array
+(
+    [0] => stdClass Object
+        (
+            [to] => http://localhost/recumbentrambler
+            [from] => https://recumbentrambler.com
+        )
+
+    [1] => stdClass Object
+        (
+            [to] => http:\/\/localhost\/recumbentrambler
+            [from] => https:\/\/recumbentrambler.com
+        )
+
+    [2] => stdClass Object
+        (
+            [to] => http%3A%2F%2Flocalhost%2Frecumbentrambler
+            [from] => https%3A%2F%2Frecumbentrambler.com
+        )
+
+    [3] => stdClass Object
+        (
+            [to] => /Users/paulmarrington/Sites/recumbentrambler
+            [from] => /home4/theagein/public_html/recumbent
+        )
+
+)
+
+[2021-04-29 04:28:23.779781] [DEBUG] Getting data from remote DB with data: {"table":"I6z_options","last_primary_key":"12487","primary_key_column":"option_id","binary_columns":[],"completed_rows":289,"max_rows":124,"type":"pull"}
+[2021-04-29 04:28:31.155768] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 60302
+[2021-04-29 04:28:31.357829] [DEBUG] Inserted 124 rows into target database
+[2021-04-29 04:28:31.358160] [DEBUG] Lastrun in : 7.5783720016479 seconds - rows throttle: 112 and remaining time: 19.144357204437
+[2021-04-29 04:28:31.358354] [INFO] Database progress update: Data: 2,0MB / 3,8MB - Rows: 413 / 793
+[2021-04-29 04:28:31.364964] [DEBUG] Getting data from remote DB with data: {"table":"I6z_options","last_primary_key":"14757","primary_key_column":"option_id","binary_columns":[],"completed_rows":413,"max_rows":112,"type":"pull"}
+[2021-04-29 04:28:38.002226] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 63790
+[2021-04-29 04:28:38.200337] [DEBUG] Inserted 112 rows into target database
+[2021-04-29 04:28:38.200647] [DEBUG] Lastrun in : 6.8356781005859 seconds - rows throttle: 101 and remaining time: 12.301872014999
+[2021-04-29 04:28:38.200853] [INFO] Database progress update: Data: 2,5MB / 3,8MB - Rows: 525 / 793
+[2021-04-29 04:28:38.206582] [DEBUG] Getting data from remote DB with data: {"table":"I6z_options","last_primary_key":"16986","primary_key_column":"option_id","binary_columns":[],"completed_rows":525,"max_rows":101,"type":"pull"}
+[2021-04-29 04:28:45.426597] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 221950
+[2021-04-29 04:28:45.608230] [DEBUG] Inserted 101 rows into target database
+[2021-04-29 04:28:45.608591] [DEBUG] Lastrun in : 7.4020161628723 seconds - rows throttle: 91 and remaining time: 4.8939230442047
+[2021-04-29 04:28:45.608711] [INFO] Database progress update: Data: 2,9MB / 3,8MB - Rows: 626 / 793
+[2021-04-29 04:28:45.614349] [INFO] Ending database synchronization loop with remaining time: 4.8881731033325 seconds
+[2021-04-29 04:28:45.619507] [INFO] Ending sync controller loop - with remaining time: 4.8830142021179
+[2021-04-29 04:28:45.887831] [INFO] Running sync controller loop - With allotted time: 26.737665176392 seconds
+[2021-04-29 04:28:45.890038] [INFO] Starting database synchronization loop with remaining time: 26.735445022583
+[2021-04-29 04:28:45.890179] [DEBUG] Search/replaces:
+
+Array
+(
+    [0] => stdClass Object
+        (
+            [to] => http://localhost/recumbentrambler
+            [from] => https://recumbentrambler.com
+        )
+
+    [1] => stdClass Object
+        (
+            [to] => http:\/\/localhost\/recumbentrambler
+            [from] => https:\/\/recumbentrambler.com
+        )
+
+    [2] => stdClass Object
+        (
+            [to] => http%3A%2F%2Flocalhost%2Frecumbentrambler
+            [from] => https%3A%2F%2Frecumbentrambler.com
+        )
+
+    [3] => stdClass Object
+        (
+            [to] => /Users/paulmarrington/Sites/recumbentrambler
+            [from] => /home4/theagein/public_html/recumbent
+        )
+
+)
+
+[2021-04-29 04:28:45.890446] [DEBUG] Getting data from remote DB with data: {"table":"I6z_options","last_primary_key":"17760","primary_key_column":"option_id","binary_columns":[],"completed_rows":626,"max_rows":91,"type":"pull"}
+[2021-04-29 04:28:52.108898] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 1294
+[2021-04-29 04:28:52.109190] [INFO] Marking table: I6z_options as completed
+[2021-04-29 04:28:52.118493] [DEBUG] Inserted 14 rows into target database
+[2021-04-29 04:28:52.118771] [DEBUG] Lastrun in : 6.2283179759979 seconds - rows throttle: 82 and remaining time: 20.506709098816
+[2021-04-29 04:28:52.118994] [INFO] Database progress update: Data: 3,0MB / 3,8MB - Rows: 640 / 793
+[2021-04-29 04:28:52.125425] [INFO] New table is started: I6z_postmeta and setting new default rows per sync: 500
+[2021-04-29 04:28:52.125588] [DEBUG] Getting data from remote DB with data: {"table":"I6z_postmeta","last_primary_key":0,"primary_key_column":"meta_id","binary_columns":[],"completed_rows":0,"max_rows":500,"type":"pull"}
+[2021-04-29 04:28:58.184786] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 2430
+[2021-04-29 04:28:58.185015] [INFO] Marking table: I6z_postmeta as completed
+[2021-04-29 04:28:58.197352] [DEBUG] Inserted 102 rows into target database
+[2021-04-29 04:28:58.197570] [DEBUG] Lastrun in : 6.0719799995422 seconds - rows throttle: 450 and remaining time: 14.427908182144
+[2021-04-29 04:28:58.197715] [INFO] Database progress update: Data: 3,5MB / 3,8MB - Rows: 742 / 793
+[2021-04-29 04:28:58.203612] [INFO] New table is started: I6z_posts and setting new default rows per sync: 402
+[2021-04-29 04:28:58.203790] [DEBUG] Getting data from remote DB with data: {"table":"I6z_posts","last_primary_key":0,"primary_key_column":"ID","binary_columns":[],"completed_rows":0,"max_rows":402,"type":"pull"}
+[2021-04-29 04:29:04.329339] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 7022
+[2021-04-29 04:29:04.329571] [INFO] Marking table: I6z_posts as completed
+[2021-04-29 04:29:04.351527] [DEBUG] Inserted 33 rows into target database
+[2021-04-29 04:29:04.351751] [DEBUG] Lastrun in : 6.1479630470276 seconds - rows throttle: 362 and remaining time: 8.2737259864807
+[2021-04-29 04:29:04.351952] [INFO] Database progress update: Data: 3,7MB / 3,8MB - Rows: 775 / 793
+[2021-04-29 04:29:04.357002] [INFO] Ending database synchronization loop with remaining time: 8.2684800624847 seconds
+[2021-04-29 04:29:04.362333] [INFO] Ending sync controller loop - with remaining time: 8.2631511688232
+[2021-04-29 04:29:04.632999] [INFO] Running sync controller loop - With allotted time: 26.73583316803 seconds
+[2021-04-29 04:29:04.635743] [INFO] Starting database synchronization loop with remaining time: 26.733069181442
+[2021-04-29 04:29:04.635896] [DEBUG] Search/replaces:
+
+Array
+(
+    [0] => stdClass Object
+        (
+            [to] => http://localhost/recumbentrambler
+            [from] => https://recumbentrambler.com
+        )
+
+    [1] => stdClass Object
+        (
+            [to] => http:\/\/localhost\/recumbentrambler
+            [from] => https:\/\/recumbentrambler.com
+        )
+
+    [2] => stdClass Object
+        (
+            [to] => http%3A%2F%2Flocalhost%2Frecumbentrambler
+            [from] => https%3A%2F%2Frecumbentrambler.com
+        )
+
+    [3] => stdClass Object
+        (
+            [to] => /Users/paulmarrington/Sites/recumbentrambler
+            [from] => /home4/theagein/public_html/recumbent
+        )
+
+)
+
+[2021-04-29 04:29:04.636331] [INFO] New table is started: I6z_spectrom_sync and setting new default rows per sync: 500
+[2021-04-29 04:29:04.636474] [DEBUG] Getting data from remote DB with data: {"table":"I6z_spectrom_sync","last_primary_key":0,"primary_key_column":"sync_id","binary_columns":[],"completed_rows":0,"max_rows":500,"type":"pull"}
+[2021-04-29 04:29:10.882509] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 238
+[2021-04-29 04:29:10.882705] [INFO] Marking table: I6z_spectrom_sync as completed
+[2021-04-29 04:29:10.888790] [DEBUG] Inserted 0 rows into target database
+[2021-04-29 04:29:10.889043] [DEBUG] Lastrun in : 6.252555847168 seconds - rows throttle: 450 and remaining time: 20.479763031006
+[2021-04-29 04:29:10.889262] [INFO] Database progress update: Data: 3,7MB / 3,8MB - Rows: 775 / 793
+[2021-04-29 04:29:10.896432] [INFO] New table is started: I6z_spectrom_sync_log and setting new default rows per sync: 500
+[2021-04-29 04:29:10.896603] [DEBUG] Getting data from remote DB with data: {"table":"I6z_spectrom_sync_log","last_primary_key":0,"primary_key_column":"id","binary_columns":[],"completed_rows":0,"max_rows":500,"type":"pull"}
+[2021-04-29 04:29:17.127873] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 238
+[2021-04-29 04:29:17.128098] [INFO] Marking table: I6z_spectrom_sync_log as completed
+[2021-04-29 04:29:17.134285] [DEBUG] Inserted 0 rows into target database
+[2021-04-29 04:29:17.134533] [DEBUG] Lastrun in : 6.2379150390625 seconds - rows throttle: 450 and remaining time: 14.234279155731
+[2021-04-29 04:29:17.134735] [INFO] Database progress update: Data: 3,7MB / 3,8MB - Rows: 775 / 793
+[2021-04-29 04:29:17.141577] [INFO] New table is started: I6z_spectrom_sync_sources and setting new default rows per sync: 500
+[2021-04-29 04:29:17.141732] [DEBUG] Getting data from remote DB with data: {"table":"I6z_spectrom_sync_sources","last_primary_key":0,"primary_key_column":"id","binary_columns":[],"completed_rows":0,"max_rows":500,"type":"pull"}
+[2021-04-29 04:29:23.374233] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 238
+[2021-04-29 04:29:23.374558] [INFO] Marking table: I6z_spectrom_sync_sources as completed
+[2021-04-29 04:29:23.380682] [DEBUG] Inserted 0 rows into target database
+[2021-04-29 04:29:23.381024] [DEBUG] Lastrun in : 6.2392671108246 seconds - rows throttle: 450 and remaining time: 7.9877851009369
+[2021-04-29 04:29:23.381303] [INFO] Database progress update: Data: 3,7MB / 3,8MB - Rows: 775 / 793
+[2021-04-29 04:29:23.388947] [INFO] Ending database synchronization loop with remaining time: 7.9798681735992 seconds
+[2021-04-29 04:29:23.395883] [INFO] Ending sync controller loop - with remaining time: 7.9729299545288
+[2021-04-29 04:29:23.673568] [INFO] Running sync controller loop - With allotted time: 26.730999946594 seconds
+[2021-04-29 04:29:23.676377] [INFO] Starting database synchronization loop with remaining time: 26.728168010712
+[2021-04-29 04:29:23.676525] [DEBUG] Search/replaces:
+
+Array
+(
+    [0] => stdClass Object
+        (
+            [to] => http://localhost/recumbentrambler
+            [from] => https://recumbentrambler.com
+        )
+
+    [1] => stdClass Object
+        (
+            [to] => http:\/\/localhost\/recumbentrambler
+            [from] => https:\/\/recumbentrambler.com
+        )
+
+    [2] => stdClass Object
+        (
+            [to] => http%3A%2F%2Flocalhost%2Frecumbentrambler
+            [from] => https%3A%2F%2Frecumbentrambler.com
+        )
+
+    [3] => stdClass Object
+        (
+            [to] => /Users/paulmarrington/Sites/recumbentrambler
+            [from] => /home4/theagein/public_html/recumbent
+        )
+
+)
+
+[2021-04-29 04:29:23.677073] [INFO] New table is started: I6z_term_relationships and setting new default rows per sync: 500
+[2021-04-29 04:29:23.677253] [DEBUG] Getting data from remote DB with data: {"table":"I6z_term_relationships","last_primary_key":0,"primary_key_column":"object_id","binary_columns":[],"completed_rows":0,"max_rows":500,"type":"pull"}
+[2021-04-29 04:29:30.953189] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 350
+[2021-04-29 04:29:30.953380] [INFO] Marking table: I6z_term_relationships as completed
+[2021-04-29 04:29:30.961491] [DEBUG] Inserted 10 rows into target database
+[2021-04-29 04:29:30.961725] [DEBUG] Lastrun in : 7.2844710350037 seconds - rows throttle: 450 and remaining time: 19.442814826965
+[2021-04-29 04:29:30.961910] [INFO] Database progress update: Data: 3,7MB / 3,8MB - Rows: 785 / 793
+[2021-04-29 04:29:30.969118] [INFO] New table is started: I6z_term_taxonomy and setting new default rows per sync: 244
+[2021-04-29 04:29:30.969336] [DEBUG] Getting data from remote DB with data: {"table":"I6z_term_taxonomy","last_primary_key":0,"primary_key_column":"term_taxonomy_id","binary_columns":[],"completed_rows":0,"max_rows":244,"type":"pull"}
+[2021-04-29 04:29:37.404110] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 398
+[2021-04-29 04:29:37.404355] [INFO] Marking table: I6z_term_taxonomy as completed
+[2021-04-29 04:29:37.412376] [DEBUG] Inserted 4 rows into target database
+[2021-04-29 04:29:37.412614] [DEBUG] Lastrun in : 6.4432759284973 seconds - rows throttle: 220 and remaining time: 12.991925954819
+[2021-04-29 04:29:37.412769] [INFO] Database progress update: Data: 3,7MB / 3,8MB - Rows: 789 / 793
+[2021-04-29 04:29:37.419880] [INFO] New table is started: I6z_termmeta and setting new default rows per sync: 500
+[2021-04-29 04:29:37.420120] [DEBUG] Getting data from remote DB with data: {"table":"I6z_termmeta","last_primary_key":0,"primary_key_column":"meta_id","binary_columns":[],"completed_rows":0,"max_rows":500,"type":"pull"}
+[2021-04-29 04:29:44.705380] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 238
+[2021-04-29 04:29:44.705610] [INFO] Marking table: I6z_termmeta as completed
+[2021-04-29 04:29:44.711888] [DEBUG] Inserted 0 rows into target database
+[2021-04-29 04:29:44.712237] [DEBUG] Lastrun in : 7.2920989990234 seconds - rows throttle: 450 and remaining time: 5.6923089027405
+[2021-04-29 04:29:44.712515] [INFO] Database progress update: Data: 3,7MB / 3,8MB - Rows: 789 / 793
+[2021-04-29 04:29:44.719970] [INFO] Ending database synchronization loop with remaining time: 5.6845788955688 seconds
+[2021-04-29 04:29:44.726648] [INFO] Ending sync controller loop - with remaining time: 5.6778998374939
+[2021-04-29 04:29:44.999312] [INFO] Running sync controller loop - With allotted time: 26.735557079315 seconds
+[2021-04-29 04:29:45.001428] [INFO] Starting database synchronization loop with remaining time: 26.733422994614
+[2021-04-29 04:29:45.001546] [DEBUG] Search/replaces:
+
+Array
+(
+    [0] => stdClass Object
+        (
+            [to] => http://localhost/recumbentrambler
+            [from] => https://recumbentrambler.com
+        )
+
+    [1] => stdClass Object
+        (
+            [to] => http:\/\/localhost\/recumbentrambler
+            [from] => https:\/\/recumbentrambler.com
+        )
+
+    [2] => stdClass Object
+        (
+            [to] => http%3A%2F%2Flocalhost%2Frecumbentrambler
+            [from] => https%3A%2F%2Frecumbentrambler.com
+        )
+
+    [3] => stdClass Object
+        (
+            [to] => /Users/paulmarrington/Sites/recumbentrambler
+            [from] => /home4/theagein/public_html/recumbent
+        )
+
+)
+
+[2021-04-29 04:29:45.001973] [INFO] New table is started: I6z_terms and setting new default rows per sync: 244
+[2021-04-29 04:29:45.002090] [DEBUG] Getting data from remote DB with data: {"table":"I6z_terms","last_primary_key":0,"primary_key_column":"term_id","binary_columns":[],"completed_rows":0,"max_rows":244,"type":"pull"}
+[2021-04-29 04:29:51.126125] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 382
+[2021-04-29 04:29:51.126455] [INFO] Marking table: I6z_terms as completed
+[2021-04-29 04:29:51.134038] [DEBUG] Inserted 4 rows into target database
+[2021-04-29 04:29:51.134228] [DEBUG] Lastrun in : 6.1321339607239 seconds - rows throttle: 220 and remaining time: 20.600620031357
+[2021-04-29 04:29:51.134448] [INFO] Database progress update: 
+[2021-04-29 04:29:51.141350] [INFO] Database progress update: 
+[2021-04-29 04:29:51.141585] [INFO] Ending database synchronization loop with remaining time: 20.593269109726 seconds
+[2021-04-29 04:29:51.148172] [INFO] Ending sync controller loop - with remaining time: 20.586683988571
+[2021-04-29 04:29:51.433729] [INFO] Running sync controller loop - With allotted time: 26.722311019897 seconds
+[2021-04-29 04:29:51.441381] [INFO] Ending sync controller loop - with remaining time: 26.714668989182
+[2021-04-29 04:29:51.711682] [INFO] Running sync controller loop - With allotted time: 26.736362934113 seconds
+[2021-04-29 04:29:51.714717] [INFO] Starting finalize - Remaining time: 26.733315944672
+[2021-04-29 04:29:51.716974] [INFO] Starting database finalize with remaining time: 26.731046915054
+[2021-04-29 04:29:51.717128] [INFO] Prepare SQL queries for database finalize
+[2021-04-29 04:29:51.717390] [INFO] Add sql statement to delete WP Synchro options: delete from `wpsyntmp_608a35d42ebf0`  where option_name like 'wpsynchro_%'
+[2021-04-29 04:29:51.717595] [INFO] Add sql statement to copy current WP Synchro options to temp table: insert into `wpsyntmp_608a35d42ebf0` (option_name,option_value,autoload) select option_name,option_value,autoload from I6z_options where option_name like 'wpsynchro_%'
+[2021-04-29 04:29:51.718685] [DEBUG] Retrieving new masterdata from target
+[2021-04-29 04:29:51.719605] [DEBUG] Calling masterdata service on: http://localhost/recumbentrambler with intent to user as 'to'
+[2021-04-29 04:29:52.032154] [DEBUG] Retrieving new masterdata completed
+[2021-04-29 04:29:52.038642] [DEBUG] Add drop table in database on I6z_links and rename from wpsyntmp_608a35d42eb39
+[2021-04-29 04:29:52.039025] [DEBUG] Add drop table in database on I6z_options and rename from wpsyntmp_608a35d42ebf0
+[2021-04-29 04:29:52.039205] [DEBUG] Add drop table in database on I6z_postmeta and rename from wpsyntmp_608a35d42ec0d
+[2021-04-29 04:29:52.039340] [DEBUG] Add drop table in database on I6z_posts and rename from wpsyntmp_608a35d42ec36
+[2021-04-29 04:29:52.039646] [DEBUG] Add drop table in database on I6z_spectrom_sync and rename from wpsyntmp_608a35d42ec8a
+[2021-04-29 04:29:52.039863] [DEBUG] Add drop table in database on I6z_spectrom_sync_log and rename from wpsyntmp_608a35d42ecc6
+[2021-04-29 04:29:52.040018] [DEBUG] Add drop table in database on I6z_spectrom_sync_sources and rename from wpsyntmp_608a35d42ecee
+[2021-04-29 04:29:52.040265] [DEBUG] Add drop table in database on I6z_term_relationships and rename from wpsyntmp_608a35d42ed17
+[2021-04-29 04:29:52.040419] [DEBUG] Add drop table in database on I6z_term_taxonomy and rename from wpsyntmp_608a35d42ed36
+[2021-04-29 04:29:52.040593] [DEBUG] Add drop table in database on I6z_termmeta and rename from wpsyntmp_608a35d42ed5f
+[2021-04-29 04:29:52.040719] [DEBUG] Add drop table in database on I6z_terms and rename from wpsyntmp_608a35d42ed73
+[2021-04-29 04:29:52.040860] [DEBUG] Finalize SQL queries:
+
+Array
+(
+    [0] => Array
+        (
+            [0] => drop table if exists `I6z_options`
+            [1] => rename table `wpsyntmp_608a35d42ebf0` to `I6z_options`
+        )
+
+    [1] => Array
+        (
+            [0] => drop table if exists `I6z_terms`
+            [1] => rename table `wpsyntmp_608a35d42ed73` to `I6z_terms`
+        )
+
+    [2] => Array
+        (
+            [0] => drop table if exists `I6z_termmeta`
+            [1] => rename table `wpsyntmp_608a35d42ed5f` to `I6z_termmeta`
+        )
+
+    [3] => Array
+        (
+            [0] => drop table if exists `I6z_term_taxonomy`
+            [1] => rename table `wpsyntmp_608a35d42ed36` to `I6z_term_taxonomy`
+        )
+
+    [4] => Array
+        (
+            [0] => drop table if exists `I6z_term_relationships`
+            [1] => rename table `wpsyntmp_608a35d42ed17` to `I6z_term_relationships`
+        )
+
+    [5] => Array
+        (
+            [0] => drop table if exists `I6z_spectrom_sync_sources`
+            [1] => rename table `wpsyntmp_608a35d42ecee` to `I6z_spectrom_sync_sources`
+        )
+
+    [6] => Array
+        (
+            [0] => drop table if exists `I6z_spectrom_sync_log`
+            [1] => rename table `wpsyntmp_608a35d42ecc6` to `I6z_spectrom_sync_log`
+        )
+
+    [7] => Array
+        (
+            [0] => drop table if exists `I6z_spectrom_sync`
+            [1] => rename table `wpsyntmp_608a35d42ec8a` to `I6z_spectrom_sync`
+        )
+
+    [8] => Array
+        (
+            [0] => drop table if exists `I6z_posts`
+            [1] => rename table `wpsyntmp_608a35d42ec36` to `I6z_posts`
+        )
+
+    [9] => Array
+        (
+            [0] => drop table if exists `I6z_postmeta`
+            [1] => rename table `wpsyntmp_608a35d42ec0d` to `I6z_postmeta`
+        )
+
+    [10] => Array
+        (
+            [0] => drop table if exists `I6z_links`
+            [1] => rename table `wpsyntmp_608a35d42eb39` to `I6z_links`
+        )
+
+    [11] => Array
+        (
+            [0] => delete from `wpsyntmp_608a35d42ebf0`  where option_name like 'wpsynchro_%'
+            [1] => insert into `wpsyntmp_608a35d42ebf0` (option_name,option_value,autoload) select option_name,option_value,autoload from I6z_options where option_name like 'wpsynchro_%'
+        )
+
+)
+
+[2021-04-29 04:29:52.041127] [INFO] Done preparing SQL queries for database finalize
+[2021-04-29 04:29:52.048252] [INFO] Ending sync controller loop - with remaining time: 26.399768829346
+[2021-04-29 04:29:52.327834] [INFO] Running sync controller loop - With allotted time: 26.728171825409 seconds
+[2021-04-29 04:29:52.328986] [INFO] Starting finalize - Remaining time: 26.727011919022
+[2021-04-29 04:29:52.330296] [INFO] Starting database finalize with remaining time: 26.725700855255
+[2021-04-29 04:29:52.330391] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => delete from `wpsyntmp_608a35d42ebf0`  where option_name like 'wpsynchro_%'
+    [1] => insert into `wpsyntmp_608a35d42ebf0` (option_name,option_value,autoload) select option_name,option_value,autoload from I6z_options where option_name like 'wpsynchro_%'
+)
+
+[2021-04-29 04:29:52.603080] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 174
+[2021-04-29 04:29:52.608653] [INFO] Ending sync controller loop - with remaining time: 26.447351932526
+[2021-04-29 04:29:52.889315] [INFO] Running sync controller loop - With allotted time: 26.725835800171 seconds
+[2021-04-29 04:29:52.891693] [INFO] Starting finalize - Remaining time: 26.723436832428
+[2021-04-29 04:29:52.893734] [INFO] Starting database finalize with remaining time: 26.721391916275
+[2021-04-29 04:29:52.893890] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => drop table if exists `I6z_links`
+    [1] => rename table `wpsyntmp_608a35d42eb39` to `I6z_links`
+)
+
+[2021-04-29 04:29:53.190709] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 174
+[2021-04-29 04:29:53.196489] [INFO] Ending sync controller loop - with remaining time: 26.418641805649
+[2021-04-29 04:29:53.473910] [INFO] Running sync controller loop - With allotted time: 26.729176998138 seconds
+[2021-04-29 04:29:53.475901] [INFO] Starting finalize - Remaining time: 26.727168798447
+[2021-04-29 04:29:53.477854] [INFO] Starting database finalize with remaining time: 26.725215911865
+[2021-04-29 04:29:53.478012] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => drop table if exists `I6z_postmeta`
+    [1] => rename table `wpsyntmp_608a35d42ec0d` to `I6z_postmeta`
+)
+
+[2021-04-29 04:29:53.762605] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 174
+[2021-04-29 04:29:53.768829] [INFO] Ending sync controller loop - with remaining time: 26.434245824814
+[2021-04-29 04:29:54.053675] [INFO] Running sync controller loop - With allotted time: 26.721894979477 seconds
+[2021-04-29 04:29:54.055254] [INFO] Starting finalize - Remaining time: 26.720308065414
+[2021-04-29 04:29:54.056734] [INFO] Starting database finalize with remaining time: 26.718824148178
+[2021-04-29 04:29:54.056844] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => drop table if exists `I6z_posts`
+    [1] => rename table `wpsyntmp_608a35d42ec36` to `I6z_posts`
+)
+
+[2021-04-29 04:29:54.352232] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 174
+[2021-04-29 04:29:54.357563] [INFO] Ending sync controller loop - with remaining time: 26.418002128601
+[2021-04-29 04:29:54.636912] [INFO] Running sync controller loop - With allotted time: 26.72655582428 seconds
+[2021-04-29 04:29:54.638071] [INFO] Starting finalize - Remaining time: 26.725389003754
+[2021-04-29 04:29:54.639435] [INFO] Starting database finalize with remaining time: 26.724025011063
+[2021-04-29 04:29:54.639554] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => drop table if exists `I6z_spectrom_sync`
+    [1] => rename table `wpsyntmp_608a35d42ec8a` to `I6z_spectrom_sync`
+)
+
+[2021-04-29 04:29:54.929075] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 174
+[2021-04-29 04:29:54.934801] [INFO] Ending sync controller loop - with remaining time: 26.42866396904
+[2021-04-29 04:29:55.213409] [INFO] Running sync controller loop - With allotted time: 26.726984977722 seconds
+[2021-04-29 04:29:55.214882] [INFO] Starting finalize - Remaining time: 26.72551202774
+[2021-04-29 04:29:55.216456] [INFO] Starting database finalize with remaining time: 26.72392988205
+[2021-04-29 04:29:55.216574] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => drop table if exists `I6z_spectrom_sync_log`
+    [1] => rename table `wpsyntmp_608a35d42ecc6` to `I6z_spectrom_sync_log`
+)
+
+[2021-04-29 04:29:55.498468] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 174
+[2021-04-29 04:29:55.504750] [INFO] Ending sync controller loop - with remaining time: 26.435642004013
+[2021-04-29 04:29:55.787452] [INFO] Running sync controller loop - With allotted time: 26.723442792892 seconds
+[2021-04-29 04:29:55.789041] [INFO] Starting finalize - Remaining time: 26.721848011017
+[2021-04-29 04:29:55.790749] [INFO] Starting database finalize with remaining time: 26.7201359272
+[2021-04-29 04:29:55.790894] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => drop table if exists `I6z_spectrom_sync_sources`
+    [1] => rename table `wpsyntmp_608a35d42ecee` to `I6z_spectrom_sync_sources`
+)
+
+[2021-04-29 04:29:56.078944] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 174
+[2021-04-29 04:29:56.085369] [INFO] Ending sync controller loop - with remaining time: 26.42552280426
+[2021-04-29 04:29:56.376655] [INFO] Running sync controller loop - With allotted time: 26.716182947159 seconds
+[2021-04-29 04:29:56.378419] [INFO] Starting finalize - Remaining time: 26.714411020279
+[2021-04-29 04:29:56.380032] [INFO] Starting database finalize with remaining time: 26.712793111801
+[2021-04-29 04:29:56.380145] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => drop table if exists `I6z_term_relationships`
+    [1] => rename table `wpsyntmp_608a35d42ed17` to `I6z_term_relationships`
+)
+
+[2021-04-29 04:29:56.667437] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 174
+[2021-04-29 04:29:56.673383] [INFO] Ending sync controller loop - with remaining time: 26.41944694519
+[2021-04-29 04:29:56.957607] [INFO] Running sync controller loop - With allotted time: 26.722064971924 seconds
+[2021-04-29 04:29:56.958912] [INFO] Starting finalize - Remaining time: 26.720751047134
+[2021-04-29 04:29:56.960300] [INFO] Starting database finalize with remaining time: 26.719362020493
+[2021-04-29 04:29:56.960403] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => drop table if exists `I6z_term_taxonomy`
+    [1] => rename table `wpsyntmp_608a35d42ed36` to `I6z_term_taxonomy`
+)
+
+[2021-04-29 04:29:57.248122] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 174
+[2021-04-29 04:29:57.254225] [INFO] Ending sync controller loop - with remaining time: 26.425444126129
+[2021-04-29 04:29:57.532457] [INFO] Running sync controller loop - With allotted time: 26.7288210392 seconds
+[2021-04-29 04:29:57.533726] [INFO] Starting finalize - Remaining time: 26.727545022964
+[2021-04-29 04:29:57.535086] [INFO] Starting database finalize with remaining time: 26.726181983948
+[2021-04-29 04:29:57.535186] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => drop table if exists `I6z_termmeta`
+    [1] => rename table `wpsyntmp_608a35d42ed5f` to `I6z_termmeta`
+)
+
+[2021-04-29 04:29:57.817232] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 174
+[2021-04-29 04:29:57.823070] [INFO] Ending sync controller loop - with remaining time: 26.438205957413
+[2021-04-29 04:29:58.107087] [INFO] Running sync controller loop - With allotted time: 26.722064971924 seconds
+[2021-04-29 04:29:58.108403] [INFO] Starting finalize - Remaining time: 26.720739841461
+[2021-04-29 04:29:58.109757] [INFO] Starting database finalize with remaining time: 26.719383955002
+[2021-04-29 04:29:58.109857] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => drop table if exists `I6z_terms`
+    [1] => rename table `wpsyntmp_608a35d42ed73` to `I6z_terms`
+)
+
+[2021-04-29 04:29:58.392871] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 174
+[2021-04-29 04:29:58.398799] [INFO] Ending sync controller loop - with remaining time: 26.430349826813
+[2021-04-29 04:29:58.679684] [INFO] Running sync controller loop - With allotted time: 26.725417852402 seconds
+[2021-04-29 04:29:58.682002] [INFO] Starting finalize - Remaining time: 26.723081827164
+[2021-04-29 04:29:58.683974] [INFO] Starting database finalize with remaining time: 26.721102952957
+[2021-04-29 04:29:58.684118] [DEBUG] Calling remote client db service with 2 SQL statements:
+
+Array
+(
+    [0] => drop table if exists `I6z_options`
+    [1] => rename table `wpsyntmp_608a35d42ebf0` to `I6z_options`
+)
+
+[2021-04-29 04:29:58.968338] [DEBUG] Got a proper response from 'clientsyncdatabase' with response length: 174
+[2021-04-29 04:29:58.974707] [INFO] Ending sync controller loop - with remaining time: 26.430375814438
+[2021-04-29 04:29:59.259961] [INFO] Running sync controller loop - With allotted time: 26.720676183701 seconds
+[2021-04-29 04:29:59.261192] [INFO] Starting finalize - Remaining time: 26.719436168671
+[2021-04-29 04:29:59.262559] [INFO] Starting database finalize with remaining time: 26.718068122864
+[2021-04-29 04:29:59.263204] [DEBUG] Retrieving new masterdata from target
+[2021-04-29 04:29:59.263914] [DEBUG] Calling masterdata service on: http://localhost/recumbentrambler with intent to user as 'to'
+[2021-04-29 04:29:59.592474] [DEBUG] Retrieving new masterdata completed
+[2021-04-29 04:29:59.592643] [DEBUG] No excess temp tables to delete
+[2021-04-29 04:29:59.597866] [INFO] Ending sync controller loop - with remaining time: 26.38276720047
+[2021-04-29 04:29:59.880121] [INFO] Running sync controller loop - With allotted time: 26.72417807579 seconds
+[2021-04-29 04:29:59.881751] [INFO] Starting finalize - Remaining time: 26.722541093826
+[2021-04-29 04:29:59.883265] [INFO] Starting database finalize with remaining time: 26.721019983292
+[2021-04-29 04:29:59.883903] [DEBUG] Retrieving new masterdata from target
+[2021-04-29 04:29:59.884584] [DEBUG] Calling masterdata service on: http://localhost/recumbentrambler with intent to user as 'to'
+[2021-04-29 04:30:00.217512] [DEBUG] Retrieving new masterdata completed
+[2021-04-29 04:30:00.222374] [INFO] Ending sync controller loop - with remaining time: 26.381914138794
+[2021-04-29 04:30:00.498701] [INFO] Running sync controller loop - With allotted time: 26.731205940247 seconds
+[2021-04-29 04:30:00.501018] [INFO] Starting finalize - Remaining time: 26.728873968124
+[2021-04-29 04:30:00.501242] [INFO] Completed finalize - remaining time: 26.728646993637
+[2021-04-29 04:30:00.501400] [INFO] Execute last actions on target - remaining time: 26.728492021561
+[2021-04-29 04:30:00.780999] [INFO] Completed last actions on target - remaining time: 26.448895931244
+[2021-04-29 04:30:00.790112] [INFO] Ending sync controller loop - with remaining time: 26.439779996872

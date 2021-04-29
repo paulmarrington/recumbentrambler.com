@@ -1,0 +1,1142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-07 12:00+0000\n"
+"PO-Revision-Date: 2020-03-05 04:59+0000\n"
+"Last-Translator: admin <baljit.cooltimeline@gmail.com>\n"
+"Language-Team: Deutsch\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: admin/ctl-settings.php:172
+msgid "*Choose theme lightbox if your theme supports an image lightbox."
+msgstr ""
+"*Wählen Sie Thema lightbox, wenn Ihr Thema unterstützt eine Bild-lightbox."
+
+#: admin/class-cool-vc-addon.php:418
+msgid "*This Options Is Not For Default Design. (Check Demo Here)"
+msgstr "*Diese Option Ist Nicht Für Standard-Design. (Überprüfen Demo Hier)"
+
+#: admin/ctl-meta-fields.php:59
+msgid "<p class=\"ctl_required\">Please enter story Order.</p>"
+msgstr "<p class=\"ctl_required\">Bitte geben Sie die Geschichte Um.</p>"
+
+#: admin/ctl-meta-fields.php:44
+msgid ""
+"<p class=\"ctl_required\">Please select story Story Date / Year / Time using "
+"datepicker only. <strong>Date Format( mm/dd/yy hh:mm )</strong></p>"
+msgstr ""
+"<p class=\"ctl_required\">Bitte wählen Sie story Geschichte Datum / Jahr / "
+"Uhrzeit mit datepicker nur. <strong>Datumsformat( mm/dd/yy hh:mm )</strong>"
+"</p>"
+
+#: admin/class-cool-vc-addon.php:269
+msgid "Compact Layout Date&Title positon"
+msgstr "Kompaktes Layout, Datum&amp;Titel positon"
+
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:354
+msgid "Date & Title positon"
+msgstr "Datum &amp; Titel positon"
+
+#: admin/ctl-meta-fields.php:58
+msgid "Order<span class=\"ctl_required\">*</span>"
+msgstr "Um<span class=\"ctl_required\">*</span>"
+
+#: admin/ctl-settings.php:166
+msgid "Remember to save the permalink again in settings -> Permalinks."
+msgstr "Speichern Sie den permalink wieder in Einstellungen -&gt; Permalinks."
+
+#: admin/class-cool-vc-addon.php:364
+msgid ""
+"Show Category Specific Blog Posts. Like For cooltimeline.com/category/fb-"
+"history/ it will be <b>fb-history</b>"
+msgstr ""
+"Show Kategorie-Spezifischen Blog-Beiträge. Wie Für cooltimeline."
+"com/category/fb-history/ es werden die <b>fb-Geschichte</b>"
+
+#: admin/class-cool-vc-addon.php:374
+msgid ""
+"Show Tag Specific Blog Posts. Like For cooltimeline.com/tag/fb-history/ it "
+"will be <b>fb-history</b>."
+msgstr ""
+"Anzeigen-Tag-Spezifischen Blog-Beiträge. Wie Für cooltimeline.com/tag/fb-"
+"history/ es werden die <b>fb-Geschichte</b>."
+
+#: admin/ctl-meta-fields.php:44
+msgid "Story Date / Year <span class=\"ctl_required\">*</span>"
+msgstr "Geschichte Datum / Jahr <span class=\"ctl_required\">*</span>"
+
+#: admin/class-cool-vc-addon.php:187 admin/class-cool-vc-addon.php:447
+msgid "Timeline skin"
+msgstr "Timeline-Skin"
+
+#: admin/class-cool-vc-addon.php:436
+msgid "Timeline Starting From Story e.g(2)"
+msgstr "Zeitleiste ab Story zB (2)"
+
+#: admin/class-cool-vc-addon.php:175
+msgid "Timeline Starting from Story e.g(2)"
+msgstr "Zeitleiste ab Story zB (2)"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:321
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:306
+msgid "Timeline Starting from Story. ex: 2"
+msgstr "Timeline Ausgehend von der Story. Bsp .: 2"
+
+#: admin/class-cool-vc-addon.php:227 admin/class-cool-vc-addon.php:475
+msgid "Timeline Stories dates custom formats"
+msgstr "Timeline Stories datiert benutzerdefinierte Formate"
+
+#: admin/class-cool-vc-addon.php:218 admin/class-cool-vc-addon.php:466
+msgid "Timeline Stories order like:- DESC(2017-1900) , ASC(1900-2017)"
+msgstr "Timeline Stories sortieren nach: - DESC (2017-1900), ASC (1900-2017)"
+
+#: admin/ctl-meta-fields.php:13
+msgid "Timeline story settings"
+msgstr "Timeline-Story-Einstellungen"
+
+#: admin/ctl-settings.php:63
+msgid "Timeline Title (Default) "
+msgstr "Timeline-Titel (Standard)"
+
+#: admin/class-cool-vc-addon.php:106
+msgid "Timeline Type"
+msgstr "Timeline-Typ"
+
+#: admin/ctl-settings.php:73
+msgid "Title Alignment ?"
+msgstr "Titelausrichtung?"
+
+#: admin/ctl-settings.php:71
+msgid "Title Heading Tag "
+msgstr "Titelüberschriften-Tag"
+
+#: admin/class-cool-vc-addon.php:167 admin/class-cool-vc-addon.php:428
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:338
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:343
+msgid "True"
+msgstr "Wahr"
+
+#: admin/ctl-settings.php:37 admin/ctl-settings.php:143
+msgid "Typography Settings"
+msgstr "Typografie-Einstellungen"
+
+#. Description of the plugin
+msgid ""
+"Use Cool Timeline pro wordpress plugin to showcase your life or your company "
+"story in a vertical timeline format. Cool Timeline Pro is an advanced "
+"timeline plugin that creates responsive vertical storyline automatically in "
+"chronological order based on the year and date of your posts."
+msgstr ""
+"Verwenden Sie das WordPress-Plugin von Cool Timeline Pro, um Ihr Leben oder "
+"Ihre Unternehmensgeschichte in einem vertikalen Timeline-Format zu "
+"präsentieren. Cool Timeline Pro ist ein erweitertes Timeline-Plug-In, das "
+"automatisch eine reaktionsschnelle vertikale Storyline in chronologischer "
+"Reihenfolge erstellt, basierend auf dem Jahr und dem Datum Ihrer Posts."
+
+#: includes/ctl-helpers.php:406
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Kategorien"
+
+#: includes/ctl-helpers.php:419
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Stichworte"
+
+#: admin/class-cool-vc-addon.php:123
+msgid "Vertical Both side"
+msgstr "Vertikal Beidseitig"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:125
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:141
+msgid "Vertical Layout"
+msgstr "Vertikales Layout"
+
+#: admin/class-cool-vc-addon.php:124
+msgid "Vertical one sided"
+msgstr "Vertikal einseitig"
+
+#: admin/class-cool-vc-addon.php:109
+msgid "Vertical Timeline (Default)"
+msgstr "Vertikale Zeitleiste (Standard)"
+
+#: admin/class-cool-vc-addon.php:120
+msgid "Vertical Timeline Layout"
+msgstr "Vertikales Timeline-Layout"
+
+#: admin/ctl-meta-fields.php:64
+msgid "Video"
+msgstr "Video"
+
+#: admin/class-cool-vc-addon.php:259 admin/class-cool-vc-addon.php:538
+msgid "YES"
+msgstr "JA"
+
+#: admin/class-cool-vc-addon.php:299 admin/class-cool-vc-addon.php:523
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:270
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:397
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:388
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:448
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/class-cool-vc-addon.php:237 admin/class-cool-vc-addon.php:485
+msgid "You Can Show Pagination After These Posts In Vertical Timeline."
+msgstr ""
+"Sie können die Paginierung nach diesen Posts in der vertikalen Timeline "
+"anzeigen."
+
+#: includes/shortcodes/content-timeline/cool-content-timeline-shortcode.php:247
+#: includes/shortcodes/story-timeline/cool-timeline-shortcode.php:232
+msgid " Loading"
+msgstr "Wird geladen"
+
+#: includes/ctl-helpers.php:356
+msgid " of "
+msgstr "von"
+
+#: includes/ctl-helpers.php:357
+msgid " Page "
+msgstr "Seite"
+
+#: admin/class-cool-vc-addon.php:155
+msgid ""
+"*This Options Is Not For Default Design. (<a href=\"http://www.cooltimeline."
+"com/horizontal-timeline-flat-design\">Horizontal Timeline</a>"
+msgstr ""
+
+#: admin/class-cool-vc-addon.php:313 admin/class-cool-vc-addon.php:550
+msgid ""
+"Add Animations Effect Inside Timeline. You Can Check Effects Demo From <a  "
+"target='_blank' href='http://michalsnik.github.io/aos/'>AOS</a>"
+msgstr ""
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:233
+msgid "Add category(s) slug - comma separated"
+msgstr "Kategorie (n) hinzufügen Slug - Komma getrennt"
+
+#: admin/ctl-meta-fields.php:50
+msgid "Add custom label"
+msgstr "Benutzerdefiniertes Etikett hinzufügen"
+
+#: fa-icons/fa-icons-class.php:138
+msgid "Add Icon"
+msgstr "Symbol hinzufügen"
+
+#: admin/ctl-meta-fields.php:54
+msgid "Add second custom label"
+msgstr "Zweites benutzerdefiniertes Etikett hinzufügen"
+
+#: admin/ctl-meta-fields.php:79
+msgid "Add slideshow slides"
+msgstr "Fügen Sie Diashow-Folien hinzu"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:242
+msgid "Add Tag(s) slug"
+msgstr "Tag (s) Slug hinzufügen"
+
+#: admin/ctl-meta-fields.php:87
+msgid ""
+"Add Youtube/Vimeo video url e.g <br/><small>https://www.youtube.com/watch?"
+"v=PLHo6uyICVk</small><br/><small>https://vimeo.com/308828986</small>"
+msgstr ""
+
+#: admin/class-cool-vc-addon.php:285 admin/class-cool-vc-addon.php:508
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:287
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:222
+msgid "Ajax Load More"
+msgstr "Ajax Mehr laden"
+
+#: includes/ctl-helpers.php:86
+msgid "All"
+msgstr "Alle"
+
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:118
+msgid "All Categories"
+msgstr "Alle Kategorien"
+
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:234
+msgid "Animation Effect"
+msgstr "Animationseffekt"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:350
+msgid "Animation Effects"
+msgstr "Animationseffekte"
+
+#: admin/ctl-settings.php:169
+msgid ""
+"Animation Effects option is added in shortcode generator in Version 1.9 or "
+"Later"
+msgstr ""
+"Die Option Animationseffekte wurde im Shortcode-Generator in Version 1.9 "
+"oder höher hinzugefügt"
+
+#: admin/class-cool-vc-addon.php:310 admin/class-cool-vc-addon.php:547
+msgid "Animations Effect"
+msgstr "Animations-Effekt"
+
+#: admin/class-cool-vc-addon.php:216 admin/class-cool-vc-addon.php:464
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:255
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:282
+msgid "ASC"
+msgstr "ASC"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:333
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:338
+msgid "Autoplay"
+msgstr "Automatisches Abspielen"
+
+#: admin/class-cool-vc-addon.php:163 admin/class-cool-vc-addon.php:424
+msgid "Autoplay Stories settings ?"
+msgstr "Autoplay Stories-Einstellungen?"
+
+#: admin/ctl-settings.php:107
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: admin/class-cool-vc-addon.php:352
+msgid "category"
+msgstr "Kategorie"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:264
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:442
+msgid "Category Filters ?"
+msgstr "Kategorie Filter?"
+
+#: admin/class-cool-vc-addon.php:360
+msgid "Category Specific Timeline (Add category(s) slug - comma separated)"
+msgstr ""
+"Kategoriespezifische Zeitleiste (Kategorie (n) hinzufügen - durch Kommas "
+"getrennt)"
+
+#: admin/class-cool-vc-addon.php:139 admin/class-cool-vc-addon.php:400
+msgid ""
+"Choose Timeline Designs (Check Vertical Designs & Horizontal Designs )\n"
+"                       <br><a target=\"_blank\" href=\"http://www."
+"cooltimeline.com/cool-timeline-pro-vertical-designs\">Vertical Timeline "
+"demos</a>\n"
+"                          |   <a target=\"_blank\" href=\"http://www."
+"cooltimeline.com/horizontal-timeline-designs-demos\">Horizontal Timeline "
+"demos</a>"
+msgstr ""
+
+#: admin/ctl-settings.php:126
+msgid "Circle Color"
+msgstr "Kreisfarbe"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:158
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:159
+msgid "Classic Design"
+msgstr "Klassisches Design"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:160
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:161
+msgid "Clean Design"
+msgstr "Sauberes Design"
+
+#: admin/class-cool-timeline-posttype.php:162
+msgctxt "column name"
+msgid "Story Category"
+msgstr "Story-Kategorie"
+
+#: admin/class-cool-timeline-posttype.php:161
+msgctxt "column name"
+msgid "Story Title"
+msgstr "Titel der Geschichte"
+
+#: admin/class-cool-vc-addon.php:125 admin/class-cool-vc-addon.php:385
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:128
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:144
+msgid "Compact Layout"
+msgstr "Kompaktes Layout"
+
+#: admin/ctl-settings.php:114
+msgid "Container Background "
+msgstr "Container Hintergrund"
+
+#: admin/ctl-settings.php:123
+msgid "Content Font Color"
+msgstr "Farbe der Inhaltsschrift"
+
+#: admin/ctl-settings.php:79
+msgid "Content Length ? "
+msgstr "Inhaltslänge ?"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:170
+msgid "Content Post Type"
+msgstr "Art des Inhaltsbeitrags"
+
+#: admin/class-cool-vc-addon.php:340
+msgid "Content Post type"
+msgstr "Inhalt Beitragstyp"
+
+#: admin/ctl-settings.php:42
+msgid "Content Timeline Settings"
+msgstr "Einstellungen der Inhaltszeitleiste"
+
+#: admin/class-cool-vc-addon.php:326
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:51
+msgid "Cool Content Timeline"
+msgstr "Coole Inhalts-Timeline"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:114
+msgid "Cool Content Timeline Settings"
+msgstr "Cool Content Timeline-Einstellungen"
+
+#. Author of the plugin
+msgid "Cool Plugins"
+msgstr "Coole Plugins"
+
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:130
+msgid "Cool Story Timeline Settings"
+msgstr "Coole Story Timeline-Einstellungen"
+
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:41
+msgid "Cool Stroy Timeline"
+msgstr "Coole Stroy-Zeitleiste"
+
+#: admin/class-cool-vc-addon.php:89
+msgid "Cool Timeline"
+msgstr "Coole Zeitleiste"
+
+#: admin/class-cool-vc-addon.php:83
+msgid "Cool Timeline Default"
+msgstr "Cool Timeline Standard"
+
+#. Name of the plugin
+#: admin/ctl-settings.php:15
+#: includes/elementor-component/class-cool-timeline-addon.php:15
+msgid "Cool Timeline Pro"
+msgstr "Coole Timeline Pro"
+
+#: admin/class-cool-vc-addon.php:327
+msgid "Create Blog Posts Timeline"
+msgstr "Zeitleiste für Blog-Posts erstellen"
+
+#: admin/class-cool-vc-addon.php:99
+msgid "Create Category Specific Timeline (By Default - All Categories)"
+msgstr ""
+"Kategoriespezifische Zeitleiste erstellen (Standardmäßig - Alle Kategorien)"
+
+#: admin/class-cool-vc-addon.php:194
+msgid "Create Light, Dark or Colorful Timeline"
+msgstr "Erstellen Sie helle, dunkle oder farbenfrohe Zeitleisten"
+
+#: admin/class-cool-vc-addon.php:454
+msgid "Create Light, Dark or Colorful Timeline."
+msgstr "Erstellen Sie eine helle, dunkle oder farbenfrohe Zeitleiste."
+
+#: admin/class-cool-vc-addon.php:84
+msgid "Create Stories Timeline"
+msgstr "Zeitleiste für Geschichten erstellen"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:309
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:209
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#: admin/ctl-settings.php:202
+msgid "Custom date formats"
+msgstr "Benutzerdefinierte Datumsformate"
+
+#: admin/ctl-meta-fields.php:34
+msgid "Custom Order Based"
+msgstr "Auftragsbezogen"
+
+#: admin/class-cool-vc-addon.php:204
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:296
+msgid "Custom Order Number"
+msgstr "Kundenspezifische Bestellnummer"
+
+#: admin/ctl-settings.php:166
+msgid "Custom slug of timeline stories"
+msgstr "Benutzerdefinierte Sammlung von Zeitleistengeschichten"
+
+#: admin/ctl-settings.php:245
+msgid "Custom Styles"
+msgstr "Benutzerdefinierte Stile"
+
+#: admin/ctl-meta-fields.php:46
+msgid "d MM yy"
+msgstr "d MM yy"
+
+#: includes/shortcodes/content-timeline/layouts/loop-content-timeline.php:112
+msgid "D/M/Y"
+msgstr "D / M / Y."
+
+#: includes/shortcodes/common/settings-vars.php:28
+msgid "d/M/Y"
+msgstr "d / M / Y."
+
+#: includes/shortcodes/story-timeline/ctl-build-query.php:32
+msgid "d/m/Y"
+msgstr "d / m / Y."
+
+#: includes/shortcodes/content-timeline/layouts/loop-content-timeline.php:113
+msgid "d/m/Y,H:i"
+msgstr "d / m / Y, H: i"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:143
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:188
+msgid "Dark"
+msgstr "Dunkel"
+
+#: admin/class-cool-vc-addon.php:192 admin/class-cool-vc-addon.php:452
+msgid "dark"
+msgstr "dunkel"
+
+#: admin/ctl-meta-fields.php:33
+msgid "Date Based"
+msgstr "Datum basiert"
+
+#: admin/class-cool-vc-addon.php:224 admin/class-cool-vc-addon.php:472
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:299
+msgid "Date Formats"
+msgstr "Datumsformate"
+
+#: admin/ctl-settings.php:39
+msgid "Date Settings"
+msgstr "Datumseinstellungen"
+
+#: admin/class-cool-vc-addon.php:190 admin/class-cool-vc-addon.php:284
+#: admin/class-cool-vc-addon.php:450 admin/class-cool-vc-addon.php:507
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:141
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:156
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:286
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:303
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:157
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:187
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:221
+msgid "Default"
+msgstr "Standard"
+
+#: admin/class-cool-vc-addon.php:203
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:295
+msgid "Default (Date Based)"
+msgstr "Standard (datumsbasiert)"
+
+#: admin/class-cool-vc-addon.php:383
+msgid "Default Layout (Vertical Both side)"
+msgstr "Standardlayout (vertikal auf beiden Seiten)"
+
+#: admin/ctl-meta-fields.php:64
+msgid "Default(Image)"
+msgstr "Standard (Bild)"
+
+#: admin/class-cool-vc-addon.php:215 admin/class-cool-vc-addon.php:463
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:254
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:281
+msgid "DESC"
+msgstr "DESC"
+
+#: admin/ctl-settings.php:249
+msgid "Disable Font Awesome CSS?"
+msgstr "Deaktivieren Sie Font Awesome CSS?"
+
+#: admin/ctl-settings.php:256
+msgid "Disable Google Font ?"
+msgstr "Google Font deaktivieren?"
+
+#: admin/ctl-settings.php:195
+msgid "Disable Stories Dates ?"
+msgstr "Stories-Termine deaktivieren?"
+
+#: admin/class-cool-vc-addon.php:262 admin/class-cool-vc-addon.php:541
+msgid "Display Icons In Timeline Stories. By default Is Dot."
+msgstr "Symbole in Zeitleistengeschichten anzeigen. Standardmäßig ist Punkt."
+
+#: admin/ctl-settings.php:296
+msgid "Display Post Meta (Categries,Tags) ?"
+msgstr "Post-Meta anzeigen (Kategorien, Tags)?"
+
+#: admin/ctl-settings.php:88
+msgid "Display read more ?"
+msgstr "Display weiterlesen?"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:203
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:318
+msgid "Display Stories"
+msgstr "Geschichten anzeigen"
+
+#: admin/class-cool-vc-addon.php:146 admin/class-cool-vc-addon.php:407
+msgid "Display Stories Blocks/Columns"
+msgstr "Anzeigen von Stories-Blöcken / Spalten"
+
+#: admin/ctl-settings.php:75
+msgid "Display Title ?"
+msgstr "Titel anzeigen?"
+
+#: admin/class-cool-vc-addon.php:343
+msgid ""
+"Don't Change This If You Are Creating Blog Posts Timeline or Define Content "
+"Type Of Your Timeline Like:- Posts"
+msgstr ""
+"Ändern Sie dies nicht, wenn Sie eine Blogpost-Timeline erstellen oder den "
+"Inhaltstyp Ihrer Timeline wie folgt definieren: - Posts"
+
+#: admin/class-cool-vc-addon.php:353
+msgid ""
+"Don't Change This If You Are Creating Blog Posts Timeline or Define Content "
+"Type Taxonomy."
+msgstr ""
+"Ändern Sie dies nicht, wenn Sie eine Blogpost-Timeline erstellen oder eine "
+"Taxonomie für den Inhaltstyp definieren."
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:159
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:160
+msgid "Elegant Design"
+msgstr "Elegantes Design"
+
+#: admin/class-cool-vc-addon.php:295 admin/class-cool-vc-addon.php:519
+msgid "Enable category filters ?"
+msgstr "Kategoriefilter aktivieren?"
+
+#: admin/ctl-settings.php:210
+msgid "Enable custom date Color"
+msgstr "Benutzerdefinierte Datumsfarbe aktivieren"
+
+#: admin/ctl-settings.php:205
+msgid "Enable custom date styles"
+msgstr "Aktivieren Sie benutzerdefinierte Datumsstile"
+
+#: admin/ctl-settings.php:207
+msgid "Enable custom date styles(Above option) to apply this setting"
+msgstr ""
+"Aktivieren Sie benutzerdefinierte Datumsstile (über Option), um diese "
+"Einstellung anzuwenden"
+
+#: admin/ctl-settings.php:230
+msgid "Enable Pagination ?"
+msgstr "Paginierung aktivieren?"
+
+#: admin/ctl-settings.php:223
+msgid "Enable Scrolling  Navigation ?"
+msgstr "Bildlaufnavigation aktivieren?"
+
+#: admin/ctl-settings.php:181
+msgid "Enter the speed in milliseconds 1000 = 1 second"
+msgstr "Geben Sie die Geschwindigkeit in Millisekunden 1000 = 1 Sekunde ein"
+
+#: admin/ctl-settings.php:43
+msgid "Extra Settings"
+msgstr "Zusätzliche Einstellungen"
+
+#: admin/class-cool-vc-addon.php:166 admin/class-cool-vc-addon.php:427
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:337
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:342
+msgid "False"
+msgstr "Falsch"
+
+#: admin/ctl-settings.php:130
+msgid "First Color"
+msgstr "Erste Farbe"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:157
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:158
+msgid "Flat Design"
+msgstr "Flaches Design"
+
+#: admin/ctl-meta-fields.php:89
+msgid "Full"
+msgstr "Voll"
+
+#: admin/class-cool-vc-addon.php:247 admin/class-cool-vc-addon.php:495
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:414
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:375
+msgid "Full Text"
+msgstr "Voller Text"
+
+#: admin/ctl-settings.php:35 admin/ctl-settings.php:62
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: admin/class-cool-vc-addon.php:386
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:126
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:142
+msgid "Horizontal Layout"
+msgstr "Horizontales Layout"
+
+#: admin/class-cool-vc-addon.php:416
+msgid "Horizontal Layout (This option only for content timeline)"
+msgstr "Horizontales Layout (Diese Option nur für die Inhaltszeitleiste)"
+
+#: admin/class-cool-vc-addon.php:110
+msgid "Horizontal Timeline"
+msgstr "Horizontale Zeitleiste"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://coolplugins.net/"
+msgstr ""
+
+#: admin/class-review-notice.php:70
+msgid "I already rated it"
+msgstr "Ich habe es bereits bewertet"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:393
+msgid "icon"
+msgstr "Symbol"
+
+#: admin/class-cool-vc-addon.php:256 admin/class-cool-vc-addon.php:535
+msgid "Icons"
+msgstr "Icons"
+
+#: admin/class-cool-vc-addon.php:191 admin/class-cool-vc-addon.php:451
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:142
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:189
+msgid "Light"
+msgstr "Licht"
+
+#: admin/ctl-settings.php:128
+msgid "Line Color"
+msgstr "Linienfarbe"
+
+#: includes/shortcodes/content-timeline/cool-content-timeline-shortcode.php:247
+#: includes/shortcodes/story-timeline/cool-timeline-shortcode.php:233
+msgid "Load More"
+msgstr "Mehr laden"
+
+#: admin/ctl-settings.php:144
+msgid "Main Title"
+msgstr "Überschrift"
+
+#: admin/ctl-settings.php:44
+msgid "Migrations"
+msgstr "Migrationen"
+
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:163
+msgid "Minimal Design"
+msgstr "Minimales Design"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:161
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:162
+msgid "Modern Design"
+msgstr "Modernes Design"
+
+#: admin/ctl-settings.php:40
+msgid "Navigation Settings"
+msgstr "Navigationseinstellungen"
+
+#: admin/class-cool-vc-addon.php:260 admin/class-cool-vc-addon.php:539
+msgid "NO"
+msgstr "NEIN"
+
+#: admin/class-cool-vc-addon.php:298 admin/class-cool-vc-addon.php:522
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:269
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:398
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:387
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:447
+msgid "No"
+msgstr "Nein"
+
+#: admin/class-review-notice.php:71
+msgid "No, not good enough, i do not like to rate it!"
+msgstr "Nein, nicht gut genug, ich mag es nicht, es zu bewerten!"
+
+#: admin/class-cool-vc-addon.php:511
+msgid "Note:-Ajax Load More Is Not Available For Horizontal layout."
+msgstr "Hinweis: - Ajax Load More ist für horizontales Layout nicht verfügbar."
+
+#: admin/class-cool-vc-addon.php:526
+msgid "Note:-Please add value in Taxonomy field before using it."
+msgstr ""
+"Hinweis: - Fügen Sie im Feld Taxonomie einen Mehrwert hinzu, bevor Sie es "
+"verwenden."
+
+#: admin/ctl-settings.php:77
+msgid "Number of stories to display ?"
+msgstr "Anzahl der anzuzeigenden Geschichten?"
+
+#: admin/class-cool-vc-addon.php:272
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:358
+msgid "On top date/label below title"
+msgstr "Am oberen Datum / Etikett unter dem Titel"
+
+#: admin/class-cool-vc-addon.php:273
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:359
+msgid "On top title below date/label"
+msgstr "Oben Titel unter Datum / Etikett"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:127
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:143
+msgid "One Side Layout"
+msgstr "Einseitiges Layout"
+
+#: admin/class-cool-vc-addon.php:384
+msgid "One Side Layout (Vertical one sided)"
+msgstr "Einseitiges Layout (vertikal einseitig)"
+
+#: admin/class-cool-vc-addon.php:212 admin/class-cool-vc-addon.php:460
+msgid "Order"
+msgstr "Bestellung"
+
+#: admin/class-cool-vc-addon.php:281 admin/class-cool-vc-addon.php:504
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:282
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:217
+msgid "Pagination ?"
+msgstr "Seitennummerierung ?"
+
+#: admin/ctl-settings.php:230
+msgid "Pagination settings added in shortcode Generator in version 2.4"
+msgstr ""
+"Paginierungseinstellungen in Shortcode Generator in Version 2.4 hinzugefügt"
+
+#: admin/ctl-settings.php:183
+msgid ""
+"Please add stories default  icon class from here <a target=\"_blank\" "
+"href=\"http://fontawesome.io/icons\">Font Awesome</a>"
+msgstr ""
+
+#: admin/ctl-settings.php:79
+msgid "Please enter no of words"
+msgstr "Bitte geben Sie keine Wörter ein"
+
+#: admin/class-cool-vc-addon.php:342
+msgid "post"
+msgstr "Post"
+
+#: includes/ctl-helpers.php:151
+#: includes/shortcodes/story-timeline/cool-timeline-shortcode.php:273
+msgid "Read More"
+msgstr "Weiterlesen"
+
+#: admin/ctl-settings.php:251
+msgid "Remove Font Awesome icons CSS from all pages"
+msgstr "Entfernen Sie Font Awesome Icons CSS von allen Seiten"
+
+#: admin/ctl-settings.php:258
+msgid "Remove google fonts CSS from all pages"
+msgstr "Entfernen Sie Google Fonts CSS von allen Seiten"
+
+#: admin/ctl-settings.php:227
+msgid "Scrolling Navigation Position ?"
+msgstr "Navigationsposition scrollen?"
+
+#: admin/ctl-settings.php:131
+msgid "Second Color"
+msgstr "Zweite Farbe"
+
+#: admin/meta-box-class/my-meta-box-class.php:820
+msgid "Select a color"
+msgstr "Wählen Sie eine Farbe aus"
+
+#: fa-icons/fa-icons-class.php:54 fa-icons/fa-icons-class.php:142
+msgid "Select Font Awesome Icon"
+msgstr "Wählen Sie Font Awesome Icon"
+
+#: admin/class-cool-vc-addon.php:410
+msgid "Select no of items"
+msgstr "Wählen Sie keine Elemente aus"
+
+#: admin/class-cool-vc-addon.php:149
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:321
+msgid "Select number of items"
+msgstr "Wählen Sie die Anzahl der Elemente"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:206
+msgid "Select number of slide per view"
+msgstr "Wählen Sie die Anzahl der Folien pro Ansicht"
+
+#: admin/class-cool-vc-addon.php:96
+msgid "Select Stories Category"
+msgstr "Wählen Sie die Kategorie Stories"
+
+#: fa-icons/fa-icons-class.php:108
+msgid "Select Story Icon"
+msgstr "Wählen Sie das Story-Symbol"
+
+#: admin/class-cool-vc-addon.php:128 admin/class-cool-vc-addon.php:389
+msgid "Select your timeline layout "
+msgstr "Wählen Sie Ihr Timeline-Layout"
+
+#: admin/class-cool-vc-addon.php:206
+msgid "Show either date or custom label/text along with timeline stories."
+msgstr ""
+"Zeigen Sie entweder Datum oder benutzerdefinierte Beschriftung / Text "
+"zusammen mit Zeitleistengeschichten an."
+
+#: admin/class-cool-vc-addon.php:481
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:179
+msgid "Show number of posts"
+msgstr "Anzahl der Beiträge anzeigen"
+
+#: admin/class-cool-vc-addon.php:233
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:401
+msgid "Show number of Stories"
+msgstr "Anzahl der Geschichten anzeigen"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:191
+msgid "Show posts per page"
+msgstr "Beiträge pro Seite anzeigen"
+
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:429
+msgid "Show stories per page"
+msgstr "Geschichten pro Seite anzeigen"
+
+#: admin/ctl-meta-fields.php:73
+msgid "Slide"
+msgstr "Rutschen"
+
+#: admin/ctl-settings.php:181
+msgid "Slide Show Speed(For Image Slideshow in Vertical Timeline) ?"
+msgstr "Diashow-Geschwindigkeit (für Bild-Diashow in vertikaler Zeitleiste)?"
+
+#: admin/ctl-settings.php:179
+msgid "Slider animation ?"
+msgstr "Slider-Animation?"
+
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:415
+msgid "Slides to show"
+msgstr "Folien zu zeigen"
+
+#: admin/ctl-meta-fields.php:64
+msgid "Slideshow"
+msgstr "Diashow"
+
+#: admin/ctl-meta-fields.php:89
+msgid "Small"
+msgstr "Klein"
+
+#: includes/shortcodes/content-timeline/layouts/loop-content-timeline.php:216
+#: includes/shortcodes/story-timeline/layouts/story-horizontal-layout.php:291
+#: includes/shortcodes/story-timeline/layouts/story-vertical-layout.php:119
+msgid "Sorry,You have not added any story yet"
+msgstr "Entschuldigung, Sie haben noch keine Geschichte hinzugefügt"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:232
+msgid "Specific Category"
+msgstr "Spezifische Kategorie"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:241
+msgid "Specific Tags"
+msgstr "Spezifische Tags"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:320
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:305
+msgid "Starts From"
+msgstr "Beginnt von"
+
+#: admin/ctl-settings.php:211
+msgid "Stories date color"
+msgstr "Geschichten Datum Farbe"
+
+#: admin/ctl-settings.php:207
+msgid "Stories date Font style"
+msgstr "Geschichten Datum Schriftstil"
+
+#: admin/ctl-settings.php:202
+msgid ""
+"Stories date formats   e.g  D,M,Y <a  target=\"_blank\" href=\"http://php."
+"net/manual/en/function.date.php\">Click here to view more</a>"
+msgstr ""
+
+#: admin/ctl-settings.php:200
+msgid "Stories Date Formats ?"
+msgstr "Geschichten Datumsformate?"
+
+#: admin/ctl-settings.php:193
+msgid "Stories Date Settings"
+msgstr "Geschichten Datumseinstellungen"
+
+#: admin/ctl-settings.php:183
+msgid "Stories Default Icon"
+msgstr "Geschichten Standard-Symbol"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:409
+msgid "Stories Description"
+msgstr "Geschichten Beschreibung"
+
+#: admin/ctl-settings.php:85
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:370
+msgid "Stories Description?"
+msgstr "Geschichten Beschreibung?"
+
+#: admin/ctl-settings.php:172
+msgid "Stories Images?"
+msgstr "Geschichten Bilder?"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:250
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:277
+msgid "Stories Order"
+msgstr "Geschichten bestellen"
+
+#: admin/ctl-settings.php:94
+msgid "Stories Order ?"
+msgstr "Geschichten bestellen?"
+
+#: admin/ctl-settings.php:90
+msgid "Stories Read more Text"
+msgstr "Geschichten Lesen Sie mehr Text"
+
+#: admin/ctl-settings.php:38 admin/ctl-settings.php:165
+msgid "Stories Settings"
+msgstr "Einstellungen für Geschichten"
+
+#: admin/ctl-settings.php:175
+msgid "Stories Slideshow ?"
+msgstr "Geschichten Slideshow?"
+
+#: admin/ctl-settings.php:121
+msgid "Story Background Color"
+msgstr "Hintergrundfarbe der Story"
+
+#: admin/ctl-meta-fields.php:34
+msgid "Story Based On"
+msgstr "Geschichte basiert auf"
+
+#: admin/ctl-meta-fields.php:96
+msgid "Story Color"
+msgstr "Story-Farbe"
+
+#: admin/class-cool-vc-addon.php:243 admin/class-cool-vc-addon.php:491
+#: admin/ctl-settings.php:153
+msgid "Story Content"
+msgstr "Story-Inhalt"
+
+#: admin/class-cool-timeline-posttype.php:166
+msgid "Story Custom Label"
+msgstr "Benutzerdefiniertes Story-Etikett"
+
+#: admin/ctl-meta-fields.php:93
+msgid "Story custom link"
+msgstr "Benutzerdefinierter Story-Link"
+
+#: admin/class-cool-timeline-posttype.php:167
+msgid "Story Custom Order"
+msgstr "Story Sonderanfertigung"
+
+#: admin/class-cool-timeline-posttype.php:163
+msgid "Story Date"
+msgstr "Story Date"
+
+#: admin/ctl-meta-fields.php:64
+msgid "Story Format"
+msgstr "Story-Format"
+
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:383
+msgid "Story Icon"
+msgstr "Story-Symbol"
+
+#: admin/ctl-meta-fields.php:89
+msgid "Story image size"
+msgstr "Bildgröße der Story"
+
+#: admin/ctl-settings.php:303
+msgid "Story Migrations"
+msgstr "Story-Migrationen"
+
+#: admin/ctl-settings.php:146
+msgid "Story Title"
+msgstr "Titel der Geschichte"
+
+#: admin/ctl-settings.php:124
+msgid "Story Title Color"
+msgstr "Titelfarbe der Story"
+
+#: admin/ctl-settings.php:151
+msgid "Story Title Style ?"
+msgstr "Story-Titel-Stil?"
+
+#: admin/ctl-settings.php:36 admin/ctl-settings.php:102
+msgid "Style Settings"
+msgstr "Stileinstellungen"
+
+#: admin/class-cool-vc-addon.php:246 admin/class-cool-vc-addon.php:494
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:413
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:374
+msgid "Summary"
+msgstr "Zusammenfassung"
+
+#: admin/class-cool-vc-addon.php:370
+msgid "Tag Specific Timeline (Add Category Slug)"
+msgstr "Tag-spezifische Zeitleiste (Kategorie Slug hinzufügen)"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:223
+msgid "Taxonomy Name"
+msgstr "Taxonomiename"
+
+#: admin/class-cool-vc-addon.php:350
+msgid "Taxonomy Name "
+msgstr "Taxonomiename"
+
+#: admin/ctl-settings.php:85
+msgid ""
+"This option is overridden by shortcode in V2.1. Please check shortcode "
+"generator."
+msgstr ""
+"Diese Option wird durch den Shortcode in V2.1 überschrieben. Bitte "
+"überprüfen Sie den Shortcode Generator."
+
+#: admin/ctl-settings.php:77
+msgid ""
+"This option is overridden by shortcode. Please check shortcode generator."
+msgstr ""
+"Diese Option wird durch die Kurzwahl überschrieben. Bitte überprüfen Sie den "
+"Shortcode Generator."
+
+#: admin/ctl-settings.php:94
+msgid ""
+"This option is overridden by shortcode. Please check your shortcode "
+"generator."
+msgstr ""
+"Diese Option wird durch die Kurzwahl überschrieben. Bitte überprüfen Sie "
+"Ihren Shortcode-Generator."
+
+#: admin/class-cool-vc-addon.php:157
+msgid "This options is not for default desgin."
+msgstr "Diese Option ist nicht für die Standardeinstellung vorgesehen."
+
+#: admin/class-cool-vc-addon.php:200
+msgid "Timeline Based On"
+msgstr "Zeitleiste basierend auf"
+
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:291
+msgid "Timeline based on"
+msgstr "Timeline basiert auf"
+
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:172
+msgid "Timeline Categories"
+msgstr "Zeitleisten-Kategorien"
+
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:198
+msgid "Timeline Date Format"
+msgstr "Timeline-Datumsformat"
+
+#: admin/ctl-settings.php:82
+msgid "Timeline default Image (300x300 best fit)"
+msgstr "Timeline-Standardbild (300 x 300 am besten geeignet)"
+
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:153
+msgid "Timeline Design"
+msgstr "Timeline-Design"
+
+#: admin/class-cool-vc-addon.php:135 admin/class-cool-vc-addon.php:396
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:152
+msgid "Timeline Designs"
+msgstr "Timeline-Designs"
+
+#: admin/ctl-settings.php:41
+msgid "Timeline Display"
+msgstr "Timeline-Anzeige"
+
+#: admin/class-cool-vc-addon.php:380
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:121
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:137
+msgid "Timeline Layout"
+msgstr "Timeline-Layout"
+
+#: admin/ctl-settings.php:221
+msgid "Timeline Scrolling Navigation settings"
+msgstr "Timeline Scrolling Navigationseinstellungen"
+
+#: includes/elementor-component/widgets/cool-content-timeline-addon-widget.php:137
+#: includes/elementor-component/widgets/cool-timeline-addon-widget.php:183
+msgid "Timeline Skin"
+msgstr "Timeline-Skin"
